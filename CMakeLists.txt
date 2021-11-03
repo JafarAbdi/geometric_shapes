@@ -61,7 +61,7 @@ find_package(shape_msgs REQUIRED)
 find_package(visualization_msgs REQUIRED)
 
 # Finds Boost Components
-include(ConfigExtras.cmake)
+include(cmake/ConfigExtras.cmake)
 
 set(THIS_PACKAGE_EXPORT_DEPENDS
   eigen3_cmake_module
